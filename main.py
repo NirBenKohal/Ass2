@@ -70,7 +70,7 @@ def convert(s, len_of_row):
 
     return "".join(string_list)
 
-print(convert("object", 2))
+print(convert("super duper", 4))
 
 
 
