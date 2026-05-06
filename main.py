@@ -13,8 +13,8 @@ def two_sum(nums, target):
 
 # שאלה 2:
 def unique(x, y):
-     unique = [[1, 5], [1, 10], [10, 50], [10, 100], [100, 500], [100, 1000]]
-     if [x, y] in unique:
+     unique_str = [[1, 5], [1, 10], [10, 50], [10, 100], [100, 500], [100, 1000]]
+     if [x, y] in unique_str:
          return True
      else:
          return False
